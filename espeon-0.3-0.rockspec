@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'espeon'
-version = '0.2-1'
+version = '0.3-0'
 -- LuaDist source
 source = {
-  tag = "0.2-1",
+  tag = "0.3-0",
   url = "git://github.com/LuaDist-testing/espeon.git"
 }
 -- Original source
 -- source = {
---   url = 'https://github.com/ryanplusplus/espeon/archive/v0.2-1.tar.gz',
---   dir = 'espeon-0.2-1'
+--   url = 'https://github.com/ryanplusplus/espeon/archive/v0.3-0.tar.gz',
+--   dir = 'espeon-0.3-0'
 -- }
 description = {
   summary = 'Tool for working with ESP8266 + NodeMCU projects',
@@ -35,7 +35,6 @@ build = {
     ['espeon.espeon'] = 'espeon/espeon.lua',
     ['espeon.util.detect_platform'] = 'espeon/util/detect_platform.lua',
     ['espeon.util.detect_serial_port'] = 'espeon/util/detect_serial_port.lua',
-    ['espeon.util.device_info'] = 'espeon/util/device_info.lua',
     ['espeon.util.exec'] = 'espeon/util/exec.lua',
     ['espeon.util.load_config'] = 'espeon/util/load_config.lua',
     ['espeon.util.read_file'] = 'espeon/util/read_file.lua',
