@@ -1,16 +1,16 @@
 -- This file was automatically generated for the LuaDist project.
 
 package = 'espeon'
-version = '0.3-1'
+version = '0.4-0'
 -- LuaDist source
 source = {
-  tag = "0.3-1",
+  tag = "0.4-0",
   url = "git://github.com/LuaDist-testing/espeon.git"
 }
 -- Original source
 -- source = {
---   url = 'https://github.com/ryanplusplus/espeon/archive/v0.3-1.tar.gz',
---   dir = 'espeon-0.3-1'
+--   url = 'https://github.com/ryanplusplus/espeon/archive/v0.4-0.tar.gz',
+--   dir = 'espeon-0.4-0'
 -- }
 description = {
   summary = 'Tool for working with ESP8266 + NodeMCU projects',
